@@ -1,0 +1,23 @@
+{
+  "name": "galaxy-rhythm-report",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "python3 scripts/build_report.py",
+    "dev": "npm run build && wrangler dev --ip 127.0.0.1 --port 8787",
+    "check": "node --check templates/report.js && prettier --check templates package.json wrangler.jsonc README.md docs/DEVELOPMENT.md .github/workflows/check.yml .prettierrc.json",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "wrangler": "4.156.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "音ゲー32アプリ・103条件の判定幅を検索して比較できるレポート",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryuya0124/galaxy-rhythm-report.git"
+  }
+}

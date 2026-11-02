@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f3ee" />
+    <meta
+      name="description"
+      content="Galaxyに入っている32本の音ゲーの判定幅一覧。ノーツや設定ごとの早・遅の幅を、大きな文字と図で見比べられます。"
+    />
+    <meta
+      property="og:title"
+      content="音ゲーの判定幅を、ひと目で。 | Galaxy Rhythm Report"
+    />
+    <meta
+      property="og:description"
+      content="32 apps / 24 games / 103 conditions — ノーツや設定で変わる判定幅を、早・遅の図で。"
+    />
+    <meta property="og:type" content="website" />
+    <title>音ゲー判定幅図鑑 — Galaxy Rhythm Report</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232a3fdb'/%3E%3Cpath d='M17 23h30M17 41h30M32 12v40' stroke='%23fff' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23eaff8a'/%3E%3C/svg%3E"
+    />
+    <style>
+      @@CSS@@
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#catalogue">一覧へスキップ</a>
+    <header class="header wrap">
+      <a class="brand" href="#top" aria-label="Galaxy Rhythm Report トップ"
+        ><svg viewBox="0 0 36 36" aria-hidden="true">
+          <rect width="36" height="36" rx="11" fill="currentColor" />
+          <path d="M9 13h18M9 23h18M18 6v24" stroke="#fff" stroke-width="2" />
+          <circle cx="18" cy="18" r="5" fill="#eaff8a" /></svg
+        ><span>GALAXY<span class="brand-sub">RHYTHM REPORT</span></span></a
+      >
+      <nav aria-label="メイン">
+        <a href="#catalogue">ゲーム一覧</a><a href="#inspector">判定幅の図</a
+        ><a href="#method">読み方</a>
+      </nav>
+      <a
+        class="header-download"
+        href="downloads/galaxy-judgment-windows.md"
+        download="Galaxy_Judgment_Windows_2026-11-02.md"
+        data-download="md"
+        >MDを保存 <span aria-hidden="true">↗</span></a
+      >
+    </header>
+    <main id="top">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="live-dot"></span> ON-DEVICE ANALYSIS
+            <span class="issue">ISSUE 01 / 2026.11.02</span>
+          </p>
+          <h1 id="hero-title">
+            音ゲーの判定幅を、<br /><span>ひと目で。</span>
+          </h1>
+          <p class="hero-description">
+            そのPERFECTは、何ミリ秒？<br />Galaxyに入っている音ゲーのコードとデータを調べて、<br
+              class="desktop-break"
+            />ノーツ・設定ごとの早判定と遅判定をまとめました。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalogue"
+              >ゲームを探す <span aria-hidden="true">↓</span></a
+            ><a class="text-link" href="#inspector"
+              >判定幅を図で見る <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <figure
+          class="hero-figure"
+          aria-label="ホロドリ通常ノーツのPERFECTは早側66.67ms、遅側50ms。早と遅で幅が違う例です。"
+        >
+          <div class="figure-top">
+            <span class="micro">TIMING MATTERS.</span
+            ><span class="pill">早と遅は、同じとは限らない。</span>
+          </div>
+          <div class="hero-axis">
+            <span>EARLY</span><span>JUST</span><span>LATE</span>
+          </div>
+          <div class="hero-lanes">
+            <div class="hero-center"></div>
+            <div class="hero-note n1"></div>
+            <div class="hero-note n2"></div>
+            <div class="hero-note n3"></div>
+            <div class="lane-band"><strong>PERFECT</strong></div>
+          </div>
+          <div class="hero-values">
+            <span>早 <b>−66.67</b> ms</span><span>遅 <b>+50</b> ms</span>
+          </div>
+          <figcaption>
+            ホロライブ ドリームス <span class="muted">/ Normal</span>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="stats wrap" aria-label="収録数と表記">
+        <div>
+          <strong>32<span>apps</span></strong>
+          <p>インストール版</p>
+        </div>
+        <div>
+          <strong>24<span>games</span></strong>
+          <p>地域版をまとめたゲーム数</p>
+        </div>
+        <div>
+          <strong>103<span>conditions</span></strong>
+          <p>ノーツ・設定別の時間表</p>
+        </div>
+        <div class="stats-note">
+          <span class="tiny-tag">HOW TO READ</span>
+          <p>
+            <b>「±50ms」は、全幅100ms。</b
+            ><br />表の数値は早・遅それぞれの半幅です。
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="section wrap"
+        id="catalogue"
+        aria-labelledby="catalogue-title"
+      >
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">01 / THE COLLECTION</p>
+            <h2 id="catalogue-title">
+              ゲームから探す<span class="section-dot">.</span>
+            </h2>
+          </div>
+          <p class="section-lead">
+            カードを開くと、<br />ノーツ・設定ごとの幅を一覧できます。
+          </p>
+        </div>
+        <div class="filters">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5" />
+              <path d="m16 16 5 5" /></svg
+            ><label class="sr-only" for="search"
+              >ゲーム名・ノーツ・設定を検索</label
+            ><input
+              id="search"
+              type="search"
+              placeholder="ゲーム名・ノーツ・設定で検索"
+              autocomplete="off"
+            /><span class="search-shortcut" aria-hidden="true">/</span>
+          </div>
+          <label class="window-filter"
+            ><span class="sr-only">掲載内容</span
+            ><select id="window-filter" aria-label="掲載内容">
+              <option value="all">すべて</option>
+              <option value="windows">判定幅あり</option>
+              <option value="unknown">固定表なし</option>
+            </select></label
+          >
+        </div>
+        <div class="catalogue-meta">
+          <p id="result-count" role="status" aria-live="polite">
+            24ゲーム / 32アプリを表示
+          </p>
+          <span>調査時点のバージョンを収録</span>
+        </div>
+        <div class="card-grid" id="cards">@@CARDS@@</div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>一致するゲームがありません</h3>
+          <p>「フリック」「アシスト」「プロセカ」などでも検索できます。</p>
+          <button class="button secondary" id="reset-search">
+            絞り込みをリセット
+          </button>
+        </div>
+        <p class="under-note">
+          ※
+          地域版・体験版は同じカードにまとめています。未確定のアプリも省略せず収録しています。
+        </p>
+      </section>
+
+      <section
+        class="inspector-section"
+        id="inspector"
+        aria-labelledby="inspector-title"
+      >
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">02 / THE TIMING LAB</p>
+              <h2 id="inspector-title">
+                早と遅を、見比べる<span class="section-dot">.</span>
+              </h2>
+            </div>
+            <p class="section-lead">
+              中央がノーツの基準時刻。<br />各帯は、グレードごとの時間範囲です。
+            </p>
+          </div>
+          <div class="inspector-panel">
+            <div class="inspector-controls">
+              <label
+                >GAME<select id="game-select">
+                  @@OPTIONS@@
+                </select></label
+              ><label
+                >NOTE / CONDITION<select id="condition-select"></select
+              ></label>
+            </div>
+            <noscript
+              ><p>
+                図の切り替えにはJavaScriptを有効にしてください。全103条件は上のカードから読めます。
+              </p></noscript
+            >
+            <div id="timing-result" aria-live="polite"></div>
+          </div>
+          <div class="lab-notes">
+            <p>
+              ゲームを切り替えると目盛りも変わります。各グレードの帯は、それぞれ独立した範囲です。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section wrap method-section"
+        id="method"
+        aria-labelledby="method-title"
+      >
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">03 / HOW TO READ</p>
+            <h2 id="method-title">
+              判定幅の読み方<span class="section-dot">.</span>
+            </h2>
+          </div>
+        </div>
+        <div class="method-cards">
+          <article>
+            <h3>早と遅、それぞれの幅</h3>
+            <p>
+              「±50ms」は早50ms・遅50ms。中央の基準時刻を挟んで、全幅は100msです。
+            </p>
+          </article>
+          <article>
+            <h3>条件を選んで見る</h3>
+            <p>
+              ノーツ・アシスト・譜面・モードで値が変わります。通常タップ以外の受付や動作条件は個別です。
+            </p>
+          </article>
+          <article>
+            <h3>対象は掲載バージョン</h3>
+            <p>
+              2026年11月2日時点の一覧です。値は小数第2位まで表示し、タッチ遅延は含めていません。
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="download-section wrap" aria-labelledby="download-title">
+        <div>
+          <p class="eyebrow">KEEP A COPY</p>
+          <h2 id="download-title">手元にも、残しておく。</h2>
+          <p>
+            HTMLはオフラインでも検索と図を使えます。<br />詳しい一覧はMarkdown、再利用にはJSONで。
+          </p>
+        </div>
+        <div class="download-buttons">
+          <a
+            class="button primary"
+            href="downloads/galaxy-judgment-windows.html"
+            download="Galaxy_Judgment_Report.html"
+            data-download="html"
+            >HTMLを保存 <span aria-hidden="true">↓</span></a
+          ><a
+            class="button secondary"
+            href="downloads/galaxy-judgment-windows.md"
+            download="Galaxy_Judgment_Windows_2026-11-02.md"
+            data-download="md"
+            >Markdown <span aria-hidden="true">↓</span></a
+          ><a
+            class="text-link"
+            href="downloads/judgment-windows.json"
+            download="judgment-windows.json"
+            data-download="json"
+            >JSONデータ <span aria-hidden="true">↓</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <a class="footer-name" href="#top"
+        >GALAXY RHYTHM REPORT <span aria-hidden="true">↑</span></a
+      >
+      <p>
+        調査日 2026.11.02 <span>·</span> ms / milliseconds
+        <span>·</span> アプリの非公式解析レポート
+      </p>
+    </footer>
+    <script type="application/json" id="report-data">
+      @@DATA@@
+    </script>
+    <script type="application/json" id="markdown-data">
+      @@MARKDOWN@@
+    </script>
+    <script>
+      @@JS@@
+    </script>
+  </body>
+</html>

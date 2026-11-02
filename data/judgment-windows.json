@@ -1,0 +1,2602 @@
+{
+  "date": "2026-11-02",
+  "unit": "ms",
+  "apps": [
+    {
+      "game": "taiko",
+      "title": "太鼓さん大次郎3",
+      "region": "",
+      "version": "2.0.5",
+      "summary": "良は±40ms、可は±90ms、不可は±140ms。候補ノーツの選び方は別設定。"
+    },
+    {
+      "game": "d4dj",
+      "title": "D4DJ Groovy Mix JP/EN",
+      "region": "JP",
+      "version": "11.0.1",
+      "summary": "JUST PERFECTは±25ms、PERFECTは±50ms。JP・ENをまとめて掲載。"
+    },
+    {
+      "game": "d4dj",
+      "title": "D4DJ Groovy Mix JP/EN",
+      "region": "EN",
+      "version": "10.8.00",
+      "summary": "JUST PERFECTは±25ms、PERFECTは±50ms。JP・ENをまとめて掲載。"
+    },
+    {
+      "game": "d4u",
+      "title": "D4DJ D4U Edition",
+      "region": "",
+      "version": "1.2.1",
+      "summary": "PERFECTは±50ms。独立したJUST PERFECTの段階はありません。"
+    },
+    {
+      "game": "garupa",
+      "title": "バンドリ！ ガールズバンドパーティ！ JP/EN/TW",
+      "region": "JP",
+      "version": "10.2.0",
+      "summary": "通常タップPERFECTは約±41.67ms。フレーム単位の丸めを含みます。"
+    },
+    {
+      "game": "garupa",
+      "title": "バンドリ！ ガールズバンドパーティ！ JP/EN/TW",
+      "region": "EN",
+      "version": "9.4.0",
+      "summary": "通常タップPERFECTは約±41.67ms。フレーム単位の丸めを含みます。"
+    },
+    {
+      "game": "garupa",
+      "title": "バンドリ！ ガールズバンドパーティ！ JP/EN/TW",
+      "region": "TW",
+      "version": "10.1.0",
+      "summary": "通常タップPERFECTは約±41.67ms。フレーム単位の丸めを含みます。"
+    },
+    {
+      "game": "ournotes",
+      "title": "アワーノーツ",
+      "region": "",
+      "version": "1.1.0",
+      "summary": "通常PERFECTは±50ms。ノーツとアシストLv0〜5を切り替えられます。"
+    },
+    {
+      "game": "yumeste",
+      "title": "ワールドダイスター 夢のステラリウム",
+      "region": "",
+      "version": "2.31.3",
+      "summary": "タップはPERFECT★ ±25ms、PERFECT ±40ms。フリックは別設定。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "JP",
+      "version": "7.1.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "体験版",
+      "version": "1.0.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "EN",
+      "version": "6.1.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "KR",
+      "version": "6.4.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "TW",
+      "version": "6.4.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "sekai",
+      "title": "プロセカ JP・体験版・EN・KR・TW・CN",
+      "region": "CN",
+      "version": "4.1.0",
+      "summary": "通常PERFECTは±41.67ms。JP/EN/KR/TWの保存値が対象で、CN・体験版は参考値です。"
+    },
+    {
+      "game": "phigros",
+      "title": "Phigros",
+      "region": "",
+      "version": "4.0.1.2",
+      "summary": "通常PERFECTは±80ms。挑戦モードではフレーム時間に応じて幅が変わります。"
+    },
+    {
+      "game": "arccreate",
+      "title": "ArcCreate",
+      "region": "",
+      "version": "1.2.68",
+      "summary": "MAXは早25ms・遅24ms。整数msのため、早と遅で1msの差があります。"
+    },
+    {
+      "game": "arcaea",
+      "title": "Arcaea",
+      "region": "",
+      "version": "7.1.0",
+      "summary": "小PUREは±25ms、PUREは±50ms、FARは±100ms。ホールド・アークの接触継続は別。"
+    },
+    {
+      "game": "astrodx",
+      "title": "AstroDX",
+      "region": "",
+      "version": "2.0.0.beta.pre.96.exp.8",
+      "summary": "Tap・Hold・SlideFinish・Touchで別設定。TapのCRITICAL PERFECTは±16.67ms。"
+    },
+    {
+      "game": "dankag",
+      "title": "ダンカグライク",
+      "region": "",
+      "version": "1.1.8",
+      "summary": "初期値と起動後の設定を掲載。起動後は50／33／41／50msで、グレード順に幅が広がる設定ではありません。"
+    },
+    {
+      "game": "ekscita",
+      "title": "Ekscita",
+      "region": "",
+      "version": "1.0.6",
+      "summary": "演奏中のGREATは±50ms、GOODは±200ms。POOR期限は400ms。"
+    },
+    {
+      "game": "million",
+      "title": "アイドルマスター ミリオンライブ！ シアターデイズ",
+      "region": "",
+      "version": "9.0.350",
+      "summary": "曲・レーン・難度で変化。2譜面の設定を掲載。6レーンPERFECTは±33.33ms／±50msなど。"
+    },
+    {
+      "game": "shiny",
+      "title": "アイドルマスター シャイニーカラーズ Song for Prism",
+      "region": "",
+      "version": "2.19.1",
+      "summary": "通常SHINYは±30ms、PERFECTは±50ms。フリック・スライドは早と遅で非対称。"
+    },
+    {
+      "game": "piano",
+      "title": "Piano Tiles 2",
+      "region": "",
+      "version": "1.12.4",
+      "summary": "タイル・行・タッチ位置による判定です。共通の固定ms表は未確定です。"
+    },
+    {
+      "game": "rotaeno",
+      "title": "Rotaeno",
+      "region": "",
+      "version": "2.99.0",
+      "summary": "通常PERFECT+は±40ms、PERFECTは±80ms。フリックの動作条件は別。"
+    },
+    {
+      "game": "holodori",
+      "title": "ホロライブ ドリームス",
+      "region": "",
+      "version": "1.2.101",
+      "summary": "通常PERFECTは早66.67ms・遅50ms。フリックやCriticalでは幅が変わります。"
+    },
+    {
+      "game": "chainbeet",
+      "title": "ChainBeeT",
+      "region": "",
+      "version": "4.22.3",
+      "summary": "通常PERFECTは±45ms。特殊ノーツの内部型ごとの設定も掲載。"
+    },
+    {
+      "game": "t7s",
+      "title": "Tokyo 7th シスターズ",
+      "region": "",
+      "version": "13.0.3",
+      "summary": "現行タップのJUST PERFECTは±20ms。Sky・フリック・Classicは別設定。"
+    },
+    {
+      "game": "malody",
+      "title": "Malody",
+      "region": "",
+      "version": "4.3.7",
+      "summary": "モード・判定設定で変化。Key・Pad・Jubeat・IIDX・Taiko・Slide・LoveLiveを掲載。"
+    },
+    {
+      "game": "osu",
+      "title": "osu!lazer",
+      "region": "",
+      "version": "2026.1005.0-lazer",
+      "summary": "OD・ルールセット・Modで変化。表はOD5・速度1を基準にした値です。"
+    },
+    {
+      "game": "takumi",
+      "title": "TAKUMI³",
+      "region": "",
+      "version": "7.7.5",
+      "summary": "LB JUSTは±25ms、P JUSTは±41.67ms。通常ノーツの6段階を掲載。"
+    },
+    {
+      "game": "sonolus",
+      "title": "Sonolus",
+      "region": "",
+      "version": "1.1.4",
+      "summary": "判定幅はエンジン・譜面ごとに決まります。アプリ全体で共通の固定ms表はありません。"
+    }
+  ],
+  "windows": [
+    {
+      "game": "taiko",
+      "note": "通常打音",
+      "mode": "基本設定",
+      "grades": [
+        "良",
+        "可",
+        "不可"
+      ],
+      "early_ms": [
+        40,
+        90,
+        140
+      ],
+      "late_ms": [
+        40,
+        90,
+        140
+      ],
+      "comment": "現在の保存値。judge_easy2=trueは候補ノーツの選択経路に影響。"
+    },
+    {
+      "game": "d4dj",
+      "note": "時間差評価",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        25,
+        50,
+        100,
+        150,
+        200
+      ],
+      "late_ms": [
+        25,
+        50,
+        100,
+        150,
+        200
+      ],
+      "comment": ""
+    },
+    {
+      "game": "d4u",
+      "note": "時間差評価",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "late_ms": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "comment": ""
+    },
+    {
+      "game": "garupa",
+      "note": "通常タップ",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        41.666666666666664,
+        91.66666666666667,
+        108.33333333333333,
+        125.0
+      ],
+      "late_ms": [
+        41.666666666666664,
+        91.66666666666667,
+        108.33333333333333,
+        125.0
+      ],
+      "comment": "sweetFrame=0。2.5f/6.5fの丸め境界は内側、5.5f/7.5fは外側。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv0・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        100,
+        125,
+        130
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        100,
+        125,
+        130
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv0・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        67,
+        58
+      ],
+      "late_ms": [
+        2,
+        67,
+        130
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEndFlick",
+      "mode": "アシストLv0・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        83,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        117,
+        125,
+        130
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv0・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        191,
+        208,
+        150
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv0・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        67,
+        0
+      ],
+      "late_ms": [
+        67,
+        130
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv1・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        111,
+        128,
+        133
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        111,
+        128,
+        133
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv1・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        72,
+        58
+      ],
+      "late_ms": [
+        2,
+        72,
+        133
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEndFlick",
+      "mode": "アシストLv1・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        88,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        120,
+        130,
+        135
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv1・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        196,
+        214,
+        216
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv1・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        72,
+        0
+      ],
+      "late_ms": [
+        72,
+        133
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv2・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        114,
+        132,
+        137
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        114,
+        132,
+        137
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv2・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        77,
+        58
+      ],
+      "late_ms": [
+        2,
+        77,
+        137
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEndFlick",
+      "mode": "アシストLv2・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        93,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        124,
+        135,
+        140
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv2・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        202,
+        220,
+        222
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv2・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        77,
+        0
+      ],
+      "late_ms": [
+        77,
+        137
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        118,
+        137,
+        143
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        118,
+        137,
+        143
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        82,
+        58
+      ],
+      "late_ms": [
+        2,
+        82,
+        143
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        98,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        128,
+        140,
+        146
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        210,
+        229,
+        231
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEndFlick",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        98,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        58,
+        83,
+        128,
+        140,
+        146
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv3・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        82,
+        0
+      ],
+      "late_ms": [
+        82,
+        143
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv4・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        124,
+        143,
+        149
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        124,
+        143,
+        149
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv4・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        87,
+        58
+      ],
+      "late_ms": [
+        2,
+        87,
+        149
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEndFlick",
+      "mode": "アシストLv4・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        103,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        133,
+        146,
+        152
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv4・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        219,
+        239,
+        241
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv4・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        87,
+        0
+      ],
+      "late_ms": [
+        87,
+        149
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／SlideBegin",
+      "mode": "アシストLv5・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        50,
+        83,
+        129,
+        150,
+        156
+      ],
+      "late_ms": [
+        2,
+        50,
+        83,
+        129,
+        150,
+        156
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "EasyNormal／SlideBeginEasy",
+      "mode": "アシストLv5・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        92,
+        58
+      ],
+      "late_ms": [
+        2,
+        92,
+        156
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEndFlick",
+      "mode": "アシストLv5・強化なし",
+      "grades": [
+        "内部JUST",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        2,
+        108,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        2,
+        67,
+        83,
+        139,
+        153,
+        159
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "SlideEnd",
+      "mode": "アシストLv5・強化なし",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        84,
+        0,
+        0,
+        0,
+        0
+      ],
+      "late_ms": [
+        66,
+        166,
+        229,
+        249,
+        251
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Trace／SlideEndTrace",
+      "mode": "アシストLv5・強化なし",
+      "grades": [
+        "PERFECT",
+        "MISS用の窓"
+      ],
+      "early_ms": [
+        92,
+        0
+      ],
+      "late_ms": [
+        92,
+        156
+      ],
+      "comment": "MISS用の窓は成功グレードの累積外周ではない。接触条件は別。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Normal／EasyNormal／SlideBegin／SlideBeginEasy",
+      "mode": "アシスト0のマスターを別集計に使用",
+      "grades": [
+        "別集計EXCELLENT"
+      ],
+      "early_ms": [
+        17
+      ],
+      "late_ms": [
+        17
+      ],
+      "comment": "通常のグレード選択から除外される。"
+    },
+    {
+      "game": "ournotes",
+      "note": "Flick／SlideEnd／SlideEndFlick",
+      "mode": "アシスト0のマスターを別集計に使用",
+      "grades": [
+        "別集計EXCELLENT"
+      ],
+      "early_ms": [
+        33
+      ],
+      "late_ms": [
+        33
+      ],
+      "comment": "通常のグレード選択から除外される。"
+    },
+    {
+      "game": "yumeste",
+      "note": "タップ",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT★",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        25,
+        40,
+        70,
+        100,
+        125
+      ],
+      "late_ms": [
+        25,
+        40,
+        70,
+        100,
+        125
+      ],
+      "comment": ""
+    },
+    {
+      "game": "yumeste",
+      "note": "フリック",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT★",
+        "GREAT"
+      ],
+      "early_ms": [
+        70,
+        100
+      ],
+      "late_ms": [
+        70,
+        100
+      ],
+      "comment": "動作の受付条件は別。"
+    },
+    {
+      "game": "sekai",
+      "note": "通常タップ／ロング始点",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        41.666666666666664,
+        83.33333333333333,
+        108.33333333333333,
+        125.0
+      ],
+      "late_ms": [
+        41.666666666666664,
+        83.33333333333333,
+        108.33333333333333,
+        125.0
+      ],
+      "comment": "保存値で、現在の演奏時の適用値は未確認です。"
+    },
+    {
+      "game": "sekai",
+      "note": "黄色タップ／黄色ロング始点",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        55,
+        75,
+        108.33333333333333,
+        125
+      ],
+      "late_ms": [
+        55,
+        75,
+        108.33333333333333,
+        125
+      ],
+      "comment": "保存値で、現在の演奏時の適用値は未確認です。"
+    },
+    {
+      "game": "sekai",
+      "note": "フリック",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        41.666666666666664,
+        108.33333333333333,
+        116.66666666666667,
+        125
+      ],
+      "late_ms": [
+        41.666666666666664,
+        125,
+        133.33333333333334,
+        141.66666666666666
+      ],
+      "comment": "保存値で、現在の演奏時の適用値は未確認です。"
+    },
+    {
+      "game": "sekai",
+      "note": "黄色フリック",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        58.333333333333336,
+        108.33333333333333,
+        116.66666666666667,
+        125
+      ],
+      "late_ms": [
+        58.333333333333336,
+        125,
+        133.33333333333334,
+        141.66666666666666
+      ],
+      "comment": "保存値で、現在の演奏時の適用値は未確認です。"
+    },
+    {
+      "game": "sekai",
+      "note": "ロング終点／フリック終点・各黄色版",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        58.333333333333336,
+        108.33333333333333,
+        125,
+        125
+      ],
+      "late_ms": [
+        66.66666666666667,
+        133.33333333333334,
+        141.66666666666666,
+        141.66666666666666
+      ],
+      "comment": "保存値で、現在の演奏時の適用値は未確認です。"
+    },
+    {
+      "game": "sekai",
+      "note": "単体トレース（緑・黄）",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "接触受付"
+      ],
+      "early_ms": [
+        83.33333333333333
+      ],
+      "late_ms": [
+        83.33333333333333
+      ],
+      "comment": "到達前に接触をラッチし到達時に確定。体験版にはこのノーツなし。"
+    },
+    {
+      "game": "sekai",
+      "note": "トレースロング本体・黄版",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "8項目同値のマスター時間表"
+      ],
+      "early_ms": [
+        83.33333333333333
+      ],
+      "late_ms": [
+        83.33333333333333
+      ],
+      "comment": "接触維持・方向・到達処理は別。8項目同値でも全操作が通常タップと同じ受付にはならない。"
+    },
+    {
+      "game": "sekai",
+      "note": "トレースロング終点・黄版",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "8項目同値のマスター時間表"
+      ],
+      "early_ms": [
+        108.33333333333333
+      ],
+      "late_ms": [
+        133.33333333333334
+      ],
+      "comment": "接触維持・方向・到達処理は別。8項目同値でも全操作が通常タップと同じ受付にはならない。"
+    },
+    {
+      "game": "sekai",
+      "note": "トレースフリック・黄版",
+      "mode": "JP/EN/KR/TW保存値（CN・体験版は参考）",
+      "grades": [
+        "8項目同値のマスター時間表"
+      ],
+      "early_ms": [
+        108.33333333333333
+      ],
+      "late_ms": [
+        125.0
+      ],
+      "comment": "接触維持・方向・到達処理は別。8項目同値でも全操作が通常タップと同じ受付にはならない。"
+    },
+    {
+      "game": "phigros",
+      "note": "タップ",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        80,
+        180,
+        220
+      ],
+      "late_ms": [
+        80,
+        180,
+        220
+      ],
+      "comment": "4.0.1.2の定数。未接触の遅MISSや早BADの入力処理は別。"
+    },
+    {
+      "game": "phigros",
+      "note": "タップ",
+      "mode": "挑戦モード: 表の各値に h を加算",
+      "grades": [
+        "PERFECT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        40,
+        90,
+        140
+      ],
+      "late_ms": [
+        40,
+        90,
+        140
+      ],
+      "comment": "h = 直近最大10フレームの平均deltaTime / 2。単位ms。"
+    },
+    {
+      "game": "arccreate",
+      "note": "タップ",
+      "mode": "基本設定",
+      "grades": [
+        "MAX",
+        "PERFECT",
+        "GOOD"
+      ],
+      "early_ms": [
+        25,
+        50,
+        100
+      ],
+      "late_ms": [
+        24,
+        49,
+        99
+      ],
+      "comment": "累積範囲。チャートの判定リマップで結果が変わる。"
+    },
+    {
+      "game": "arcaea",
+      "note": "通常タップ分類",
+      "mode": "基本設定",
+      "grades": [
+        "小PURE",
+        "PURE",
+        "FAR",
+        "外周LOST"
+      ],
+      "early_ms": [
+        25,
+        50,
+        100,
+        120
+      ],
+      "late_ms": [
+        25,
+        50,
+        100,
+        120
+      ],
+      "comment": "ホールド／アークの接触継続判定とは別。"
+    },
+    {
+      "game": "astrodx",
+      "note": "Tap",
+      "mode": "基本設定",
+      "grades": [
+        "CRITICAL PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        16.67,
+        50,
+        100,
+        150
+      ],
+      "late_ms": [
+        16.67,
+        50,
+        100,
+        150
+      ],
+      "comment": ""
+    },
+    {
+      "game": "astrodx",
+      "note": "Hold用時間表",
+      "mode": "基本設定",
+      "grades": [
+        "CRITICAL PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        16.67,
+        50,
+        100,
+        150
+      ],
+      "late_ms": [
+        16.67,
+        133.33,
+        183.33,
+        233.33
+      ],
+      "comment": "最終ホールド成績には保持時間の別計算も入る。"
+    },
+    {
+      "game": "astrodx",
+      "note": "SlideFinish",
+      "mode": "基本設定",
+      "grades": [
+        "CRITICAL PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        233.33,
+        433.33,
+        600
+      ],
+      "late_ms": [
+        233.33,
+        433.33,
+        600
+      ],
+      "comment": ""
+    },
+    {
+      "game": "astrodx",
+      "note": "Touch",
+      "mode": "基本設定",
+      "grades": [
+        "CRITICAL PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "late_ms": [
+        150,
+        216.67,
+        250,
+        300
+      ],
+      "comment": "早側Perfect/Great/Goodの独立区間なし。"
+    },
+    {
+      "game": "dankag",
+      "note": "通常時間差",
+      "mode": "基本設定",
+      "grades": [
+        "BRILLIANT",
+        "GREAT",
+        "FAST/SLOW",
+        "BAD"
+      ],
+      "early_ms": [
+        50,
+        100,
+        120,
+        150
+      ],
+      "late_ms": [
+        50,
+        100,
+        120,
+        150
+      ],
+      "comment": "初期値、MusicRate=1、ファジー軽減・離し補正の適用前。"
+    },
+    {
+      "game": "dankag",
+      "note": "保存・起動後のカスタム設定",
+      "mode": "起動後設定",
+      "grades": [
+        "BRILLIANT",
+        "GREAT",
+        "FAST/SLOW",
+        "BAD"
+      ],
+      "early_ms": [
+        50,
+        33,
+        41,
+        50
+      ],
+      "late_ms": [
+        50,
+        33,
+        41,
+        50
+      ],
+      "comment": "非単調なので階層的な判定区間として解釈しない。"
+    },
+    {
+      "game": "ekscita",
+      "note": "演奏シーン",
+      "mode": "基本設定",
+      "grades": [
+        "GREAT",
+        "GOOD",
+        "POOR期限"
+      ],
+      "early_ms": [
+        50,
+        200,
+        400
+      ],
+      "late_ms": [
+        50,
+        200,
+        400
+      ],
+      "comment": "Poor400は空振り全方向の同等グレード窓を意味しない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度0／4レーン難度0〜3",
+      "mode": "thanky譜面・通常入力",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD/MISS外周"
+      ],
+      "early_ms": [
+        83.33333333333333,
+        150.0,
+        233.33333333333334,
+        266.6666666666667
+      ],
+      "late_ms": [
+        83.33333333333333,
+        150.0,
+        233.33333333333334,
+        266.6666666666667
+      ],
+      "comment": "難度は内部index。全楽曲への同値保証ではない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度0／4レーン難度0〜3",
+      "mode": "同譜面・FlickOrHoldEnd",
+      "grades": [
+        "PERFECT閾値",
+        "GREAT閾値",
+        "GOOD閾値"
+      ],
+      "early_ms": [
+        133.33333333333331,
+        200.0,
+        283.33333333333337
+      ],
+      "late_ms": [
+        133.33333333333331,
+        200.0,
+        283.33333333333337
+      ],
+      "comment": "外周上限266.67msで先に制限。GOOD閾値がこれを超えても入力窓全体は広がらない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度1／6レーン難度0",
+      "mode": "thanky譜面・通常入力",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD/MISS外周"
+      ],
+      "early_ms": [
+        50.0,
+        100.0,
+        183.33333333333334,
+        216.66666666666666
+      ],
+      "late_ms": [
+        50.0,
+        100.0,
+        183.33333333333334,
+        216.66666666666666
+      ],
+      "comment": "難度は内部index。全楽曲への同値保証ではない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度1／6レーン難度0",
+      "mode": "同譜面・FlickOrHoldEnd",
+      "grades": [
+        "PERFECT閾値",
+        "GREAT閾値",
+        "GOOD閾値"
+      ],
+      "early_ms": [
+        100.0,
+        150.0,
+        233.33333333333334
+      ],
+      "late_ms": [
+        100.0,
+        150.0,
+        233.33333333333334
+      ],
+      "comment": "外周上限216.67msで先に制限。GOOD閾値がこれを超えても入力窓全体は広がらない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度2〜3／6レーン難度1〜3",
+      "mode": "thanky譜面・通常入力",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD/MISS外周"
+      ],
+      "early_ms": [
+        50.0,
+        100.0,
+        150.0,
+        183.33333333333334
+      ],
+      "late_ms": [
+        50.0,
+        100.0,
+        150.0,
+        183.33333333333334
+      ],
+      "comment": "難度は内部index。全楽曲への同値保証ではない。"
+    },
+    {
+      "game": "million",
+      "note": "2レーン難度2〜3／6レーン難度1〜3",
+      "mode": "同譜面・FlickOrHoldEnd",
+      "grades": [
+        "PERFECT閾値",
+        "GREAT閾値",
+        "GOOD閾値"
+      ],
+      "early_ms": [
+        100.0,
+        150.0,
+        200.0
+      ],
+      "late_ms": [
+        100.0,
+        150.0,
+        200.0
+      ],
+      "comment": "外周上限183.33msで先に制限。GOOD閾値がこれを超えても入力窓全体は広がらない。"
+    },
+    {
+      "game": "million",
+      "note": "6レーン内部難度2",
+      "mode": "bnthtr譜面・通常入力",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD/MISS外周"
+      ],
+      "early_ms": [
+        33.333333333333336,
+        100,
+        150,
+        183.33333333333334
+      ],
+      "late_ms": [
+        33.333333333333336,
+        100,
+        150,
+        183.33333333333334
+      ],
+      "comment": "thankyの同区分はP50msで、実際に曲別の差があった。他区分は取得2譜面で一致。"
+    },
+    {
+      "game": "million",
+      "note": "6レーン内部難度2",
+      "mode": "bnthtr譜面・FlickOrHoldEnd",
+      "grades": [
+        "PERFECT閾値",
+        "GREAT閾値",
+        "GOOD閾値"
+      ],
+      "early_ms": [
+        83.33333333333333,
+        150,
+        200
+      ],
+      "late_ms": [
+        83.33333333333333,
+        150,
+        200
+      ],
+      "comment": ""
+    },
+    {
+      "game": "shiny",
+      "note": "Regular／SlideStart／Skill／Kime",
+      "mode": "基本設定",
+      "grades": [
+        "SHINY",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        30,
+        50,
+        83.33333333333333,
+        133.33333333333334
+      ],
+      "late_ms": [
+        30,
+        50,
+        83.33333333333333,
+        133.33333333333334
+      ],
+      "comment": ""
+    },
+    {
+      "game": "shiny",
+      "note": "Flick",
+      "mode": "基本設定",
+      "grades": [
+        "SHINY",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        83.33333333333333,
+        83.33333333333333,
+        83.33333333333333,
+        83.33333333333333
+      ],
+      "late_ms": [
+        40,
+        50,
+        83.33333333333333,
+        133.33333333333334
+      ],
+      "comment": "早側は各閾値が同値。SHINY無効時はPERFECTに統合。動作受付は別。"
+    },
+    {
+      "game": "shiny",
+      "note": "SlideEnd",
+      "mode": "基本設定",
+      "grades": [
+        "SHINY",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        91.66666666666667,
+        91.66666666666667,
+        0,
+        0
+      ],
+      "late_ms": [
+        30,
+        50,
+        66.66666666666667,
+        100
+      ],
+      "comment": "早側Great/Goodは設定0で独立区間なし。"
+    },
+    {
+      "game": "shiny",
+      "note": "SlideJoint",
+      "mode": "基本設定",
+      "grades": [
+        "SHINY",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        33.333333333333336,
+        33.333333333333336,
+        0,
+        0
+      ],
+      "late_ms": [
+        33.333333333333336,
+        33.333333333333336,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "comment": "早側Great/Goodは独立区間なし。"
+    },
+    {
+      "game": "rotaeno",
+      "note": "通常ノーツ",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT+",
+        "PERFECT",
+        "GOOD"
+      ],
+      "early_ms": [
+        40,
+        80,
+        130
+      ],
+      "late_ms": [
+        40,
+        80,
+        130
+      ],
+      "comment": ""
+    },
+    {
+      "game": "holodori",
+      "note": "Normal／LongStart",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT+",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        25,
+        66.66666666666667,
+        100,
+        133.33333333333334,
+        150
+      ],
+      "late_ms": [
+        25,
+        50,
+        83.33333333333333,
+        116.66666666666667,
+        133.33333333333334
+      ],
+      "comment": ""
+    },
+    {
+      "game": "holodori",
+      "note": "Flick／LongFlickEnd",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT+",
+        "PERFECT",
+        "BAD"
+      ],
+      "early_ms": [
+        25,
+        100,
+        150
+      ],
+      "late_ms": [
+        25,
+        83.33333333333333,
+        133.33333333333334
+      ],
+      "comment": "Great/Goodの独立段階なし。フリック動作受付は別。"
+    },
+    {
+      "game": "holodori",
+      "note": "CriticalのNormal／LongStart",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT+",
+        "PERFECTへ昇格",
+        "BAD"
+      ],
+      "early_ms": [
+        25,
+        133.33333333333334,
+        150
+      ],
+      "late_ms": [
+        25,
+        116.66666666666667,
+        133.33333333333334
+      ],
+      "comment": "CriticalType=1は通常のGreat/GoodをPerfectに昇格。"
+    },
+    {
+      "game": "holodori",
+      "note": "LongRelay／LongContinuation／LongEnd",
+      "mode": "基本設定",
+      "grades": [
+        "マスター上のPERFECT+"
+      ],
+      "early_ms": [
+        25
+      ],
+      "late_ms": [
+        25
+      ],
+      "comment": "接触継続・到達時確定と組み合わさるためタップと同一受付ではない。"
+    },
+    {
+      "game": "chainbeet",
+      "note": "標準分岐（type21/30〜32/62以外）",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS入力外周"
+      ],
+      "early_ms": [
+        45,
+        90,
+        120,
+        150,
+        200
+      ],
+      "late_ms": [
+        45,
+        90,
+        120,
+        150,
+        200
+      ],
+      "comment": "ノーツ時刻と再生時刻の差。"
+    },
+    {
+      "game": "chainbeet",
+      "note": "内部type21",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        90,
+        180,
+        240,
+        300
+      ],
+      "late_ms": [
+        90,
+        180,
+        240,
+        300
+      ],
+      "comment": "型名のUI対応づけは未確認。300ms以上はMISS分岐。"
+    },
+    {
+      "game": "chainbeet",
+      "note": "内部type30/31/32",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECTのみ"
+      ],
+      "early_ms": [
+        90
+      ],
+      "late_ms": [
+        90
+      ],
+      "comment": "範囲外は判定なし。自動消去・接触処理は別。"
+    },
+    {
+      "game": "chainbeet",
+      "note": "内部type62",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECTのみ"
+      ],
+      "early_ms": [
+        120
+      ],
+      "late_ms": [
+        120
+      ],
+      "comment": "範囲外は判定なし。自動消去・接触処理は別。"
+    },
+    {
+      "game": "t7s",
+      "note": "現行Tap",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        20,
+        50,
+        100,
+        150,
+        200
+      ],
+      "late_ms": [
+        20,
+        50,
+        100,
+        150,
+        200
+      ],
+      "comment": ""
+    },
+    {
+      "game": "t7s",
+      "note": "現行LongEndFlick",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT"
+      ],
+      "early_ms": [
+        37.5,
+        75
+      ],
+      "late_ms": [
+        37.5,
+        75
+      ],
+      "comment": ""
+    },
+    {
+      "game": "t7s",
+      "note": "現行SkyStart",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        25,
+        50,
+        100,
+        150
+      ],
+      "late_ms": [
+        25,
+        50,
+        100,
+        150
+      ],
+      "comment": ""
+    },
+    {
+      "game": "t7s",
+      "note": "現行SkyEnd",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD"
+      ],
+      "early_ms": [
+        37.5,
+        75,
+        150,
+        175
+      ],
+      "late_ms": [
+        37.5,
+        75,
+        150,
+        175
+      ],
+      "comment": ""
+    },
+    {
+      "game": "t7s",
+      "note": "現行Other",
+      "mode": "基本設定",
+      "grades": [
+        "JUST PERFECT",
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD"
+      ],
+      "early_ms": [
+        37.5,
+        75,
+        150,
+        175,
+        200
+      ],
+      "late_ms": [
+        37.5,
+        75,
+        150,
+        175,
+        200
+      ],
+      "comment": ""
+    },
+    {
+      "game": "t7s",
+      "note": "Classic通常",
+      "mode": "基本設定",
+      "grades": [
+        "PERFECT",
+        "GREAT",
+        "GOOD",
+        "BAD",
+        "MISS外周"
+      ],
+      "early_ms": [
+        50.1,
+        100,
+        167,
+        234,
+        334
+      ],
+      "late_ms": [
+        50.1,
+        100,
+        167,
+        234,
+        334
+      ],
+      "comment": "旧モード専用配列。現行とは別。"
+    },
+    {
+      "game": "malody",
+      "note": "Key",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        45,
+        85,
+        130
+      ],
+      "late_ms": [
+        45,
+        85,
+        130
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Key Fair",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        45,
+        85,
+        120
+      ],
+      "late_ms": [
+        45,
+        85,
+        120
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Pad",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        45,
+        85,
+        130
+      ],
+      "late_ms": [
+        45,
+        85,
+        130
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Jubeat",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        40,
+        80,
+        160
+      ],
+      "late_ms": [
+        40,
+        80,
+        160
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "IIDX",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        20,
+        40,
+        105
+      ],
+      "late_ms": [
+        20,
+        40,
+        105
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Taiko／Taiko Fair",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        34,
+        84,
+        128
+      ],
+      "late_ms": [
+        34,
+        84,
+        128
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Slide",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        45,
+        85,
+        130
+      ],
+      "late_ms": [
+        45,
+        85,
+        130
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "Slide Fair",
+      "mode": "基本の内部設定2（補正0）",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        45,
+        85,
+        120
+      ],
+      "late_ms": [
+        45,
+        85,
+        120
+      ],
+      "comment": "モード名はネイティブクラス名で記載。Fairは通常と区別。"
+    },
+    {
+      "game": "malody",
+      "note": "LoveLive",
+      "mode": "内部設定0",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        52,
+        130,
+        208
+      ],
+      "late_ms": [
+        52,
+        130,
+        208
+      ],
+      "comment": ""
+    },
+    {
+      "game": "malody",
+      "note": "LoveLive",
+      "mode": "内部設定1",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        46,
+        115,
+        184
+      ],
+      "late_ms": [
+        46,
+        115,
+        184
+      ],
+      "comment": ""
+    },
+    {
+      "game": "malody",
+      "note": "LoveLive",
+      "mode": "内部設定2",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        40,
+        100,
+        160
+      ],
+      "late_ms": [
+        40,
+        100,
+        160
+      ],
+      "comment": ""
+    },
+    {
+      "game": "malody",
+      "note": "LoveLive",
+      "mode": "内部設定3",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        36,
+        90,
+        144
+      ],
+      "late_ms": [
+        36,
+        90,
+        144
+      ],
+      "comment": ""
+    },
+    {
+      "game": "malody",
+      "note": "LoveLive",
+      "mode": "内部設定4",
+      "grades": [
+        "BEST",
+        "COOL",
+        "GOOD"
+      ],
+      "early_ms": [
+        32,
+        80,
+        128
+      ],
+      "late_ms": [
+        32,
+        80,
+        128
+      ],
+      "comment": ""
+    },
+    {
+      "game": "osu",
+      "note": "osu!standard",
+      "mode": "OD5・速度1・判定変更Modなし",
+      "grades": [
+        "300",
+        "100",
+        "50"
+      ],
+      "early_ms": [
+        49.5,
+        99.5,
+        149.5
+      ],
+      "late_ms": [
+        49.5,
+        99.5,
+        149.5
+      ],
+      "comment": ""
+    },
+    {
+      "game": "osu",
+      "note": "osu!taiko",
+      "mode": "OD5",
+      "grades": [
+        "良/Great",
+        "可/Ok",
+        "Miss外周"
+      ],
+      "early_ms": [
+        34.5,
+        79.5,
+        94.5
+      ],
+      "late_ms": [
+        34.5,
+        79.5,
+        94.5
+      ],
+      "comment": ""
+    },
+    {
+      "game": "osu",
+      "note": "osu!mania",
+      "mode": "OD5・倍率1・Classicなし",
+      "grades": [
+        "MAX/Perfect",
+        "300/Great",
+        "200/Good",
+        "100/Ok",
+        "50/Meh",
+        "Miss外周"
+      ],
+      "early_ms": [
+        19.5,
+        49.5,
+        82.5,
+        112.5,
+        136.5,
+        173.5
+      ],
+      "late_ms": [
+        19.5,
+        49.5,
+        82.5,
+        112.5,
+        136.5,
+        173.5
+      ],
+      "comment": ""
+    },
+    {
+      "game": "takumi",
+      "note": "通常ノーツ",
+      "mode": "基本設定",
+      "grades": [
+        "LB JUST",
+        "P JUST",
+        "JUST",
+        "GOOD",
+        "OK",
+        "MISS外周"
+      ],
+      "early_ms": [
+        25,
+        41.67,
+        60,
+        82.5,
+        110,
+        120
+      ],
+      "late_ms": [
+        25,
+        41.67,
+        60,
+        82.5,
+        110,
+        120
+      ],
+      "comment": "表示モード・スコア方式で上位段階の扱いが変わる。"
+    }
+  ]
+}
