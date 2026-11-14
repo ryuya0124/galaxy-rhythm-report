@@ -3,7 +3,7 @@
 このリポジトリを公開サイトの編集・ビルド元とする。
 
 - ページは `templates/`、公開用データは `data/`、生成処理は `scripts/` で編集する。
-- 変更後は `npm run check` と `npm run build` を実行し、生成されたMDも合わせてコミットする。
+- 変更後は `pnpm run check` と `pnpm run build` を実行し、生成されたMDも合わせてコミットする。
 - ソースの更新はGitHubへpushし、対象コミットのCI結果を確認する。
 - `dist/`や`node_modules/`は生成物としてGit管理から除外する。
 - READMEは利用者向けとし、コマンドや運用手順は `docs/DEVELOPMENT.md` に記載する。

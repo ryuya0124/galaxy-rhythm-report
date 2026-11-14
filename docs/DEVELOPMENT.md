@@ -12,12 +12,12 @@
 ## ビルドとローカル表示
 
 ```sh
-npm ci
-npm run build
-npm run dev
+pnpm install --frozen-lockfile
+pnpm run build
+pnpm run dev
 ```
 
-ローカル表示は `http://127.0.0.1:8787/` です。`npm run build` は単一HTML、保存用MD・JSON、レスポンスヘッダーを `dist/` に生成します。
+ローカル表示は `http://127.0.0.1:8787/` です。`pnpm run build` は単一HTML、保存用MD・JSON、レスポンスヘッダーを `dist/` に生成します。
 
 保存用HTMLはCSS・JS・データをすべて内包します。外部CDNやバックエンドへの接続はありません。
 
@@ -42,9 +42,9 @@ npm run dev
 `early_ms` と `late_ms` は非負の半幅です。各要素は同じ位置の `grades` に対応します。0や非単調な幅も意味を持つので、数値を並べ替えたり単調になるよう補正したりしないでください。
 
 ```sh
-npm run check
-npm run build
-npx wrangler deploy --dry-run
+pnpm run check
+pnpm run build
+pnpm exec wrangler deploy --dry-run
 ```
 
 変更後はスマホ幅での表示と横はみ出し、検索、条件切り替え、固定表なしの表示、ダウンロードを確認します。本文16〜17px、一覧の判定値21〜24pxを基準にしています。
@@ -54,8 +54,8 @@ npx wrangler deploy --dry-run
 初回は自分のCloudflareアカウントで認証し、`wrangler.jsonc` のWorker名を自分の公開先に合わせてください。
 
 ```sh
-npx wrangler login
-npm run deploy
+pnpm exec wrangler login
+pnpm run deploy
 ```
 
 アップロードするのは `dist/` だけです。APIトークンやアカウントIDをソースへ書き込む必要はありません。GitHub Actionsはチェックとビルドを実行し、Cloudflareへの自動デプロイは行いません。

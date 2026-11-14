@@ -1,4 +1,4 @@
 dist/
 node_modules/
 docs/JUDGMENT_WINDOWS.md
-package-lock.json
+pnpm-lock.yaml
